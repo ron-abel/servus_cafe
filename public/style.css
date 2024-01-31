@@ -1,0 +1,122 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #f4f2ee ; */
+    
+}
+/* body{
+    background-color: #f4f2ee !important;
+} */
+section{
+    width: 50% !important;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* background-color: #f4f2ee ; */
+}
+
+form div{
+    margin-top: 10px;
+    padding: 24px;
+    margin-bottom: 0 !important;
+    background-color: #fff;
+    border: 1px solid rgb(218,220,224);
+    border-radius: 8px !important;
+}
+.required{
+    color: red;
+}
+
+form label{
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.use-dropdown span{
+    font-size:14px !important ;
+}
+.radio1{
+    border: 0;
+    padding-bottom:0 ;
+    padding-top:0 ;
+}
+.radio1 label{
+    font-size: 14px;
+}
+
+.text-field input{
+    border: none;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    padding-left: 0;
+    width: 60%;
+}
+.date-card input{
+    border: none;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    padding-left: 0;
+    width: 60%;
+}
+.text-area input{
+    border: none;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    padding-left: 0;
+    
+}
+form div span{
+    font-size: 13px !important;
+}
+.form-control{
+    font-size: 14px !important;
+}
+
+
+@media screen and (max-width:1320px) {
+    section{
+        width: 60% !important;
+    }
+}
+@media screen and (max-width:1096px) {
+    section{
+        width: 75% !important;
+    }
+}
+@media screen and (max-width:877px) {
+    section{
+        width: 85% !important;
+    }
+}
+@media screen and (max-width:779px) {
+    section{
+        width: 95% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    section{
+        width: 95% !important;
+    }
+    .header-tab h2{
+        font-size: 1.5rem !important;
+    }
+}
+@media screen and (max-width:600px) {
+    section{
+        width: 100% !important;
+    }
+    .header-tab h2{
+        font-size: 1.2rem !important;
+    }
+    .text-field input{
+       
+        width: 100% !important;
+    }
+
+    .date-card input{
+        width: 100% !important;
+    }
+
+}
